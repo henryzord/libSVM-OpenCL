@@ -1,0 +1,17 @@
+﻿Build started 08/09/2014 11:26:19.
+     1>Project "C:\Users\Henry\CodeHub\gpusvm\projects\PSVMTrain\PSVMTrain.vcxproj" on node 4 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin\x86_64\Release\PSVMTrain.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\..\lib\win64\ /LIBPATH:"C:\Program Files (x86)\AMD APP SDK\2.9\\lib\x86_64\\" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin\x86_64\Release\PSVMTrain.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin/x86_64/Release/HelloWorld.lib" /MACHINE:X64 /SAFESEH:NO  /machine:x64 temp\x86_64\Release\psvm.obj
+         "temp\x86_64\Release\svm-train.obj"
+         PSVMTrain.vcxproj -> C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin\x86_64\Release\PSVMTrain.exe
+       PostBuildEvent:
+         copy HelloWorld_Kernel.cl "C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin\x86_64\Release\HelloWorld_Kernel.cl" /Y
+         	  
+         :VCEnd
+                 1 arquivo(s) copiado(s).
+     1>Done Building Project "C:\Users\Henry\CodeHub\gpusvm\projects\PSVMTrain\PSVMTrain.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.40

@@ -1,0 +1,45 @@
+------- 260X_ORG_A1A ------
+Accuracy = 83.5864% (25875/30956) (classification)
+
+------- 260X_ORG_A6A ------
+Accuracy = 84.1713% (17963/21341) (classification)
+
+------- 260X_ORG_A7A ------
+Accuracy = 84.5817% (13923/16461) (classification)
+
+------- 260X_ORG_A8A ------
+Accuracy = 85.0076% (8386/9865) (classification)
+
+------- 260X_ORG_A9A ------
+Accuracy = 84.8167% (13809/16281) (classification)
+
+------- 260X_PRL_A1A ------
+Accuracy = 83.5864% (25875/30956) (classification)
+
+------- 260X_PRL_A6A ------
+Accuracy = 75.8727% (16192/21341) (classification)
+
+------- 260X_PRL_A7A ------
+Accuracy = 76.1679% (12538/16461) (classification)
+
+------- 260X_PRL_A8A ------
+Accuracy = 76.3305% (7530/9865) (classification)
+
+------- 260X_PRL_A9A ------
+Accuracy = 76.3774% (12435/16281) (classification)
+
+------- 260X_SEQ_A1A ------
+Accuracy = 83.5864% (25875/30956) (classification)
+
+------- 260X_SEQ_A6A ------
+Accuracy = 84.1713% (17963/21341) (classification)
+
+------- 260X_SEQ_A7A ------
+Accuracy = 84.5817% (13923/16461) (classification)
+
+------- 260X_SEQ_A8A ------
+Accuracy = 85.0076% (8386/9865) (classification)
+
+------- 260X_SEQ_A9A ------
+Accuracy = 84.8167% (13809/16281) (classification)
+

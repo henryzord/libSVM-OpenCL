@@ -1,0 +1,23 @@
+﻿Build started 23/01/2015 10:25:17.
+     1>Project "C:\Users\Henry\CodeHub\gpusvm\projects\PSVMTrain\PSVMTrain.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files (x86)\AMD APP SDK\2.9-1\/include" /I/include /I../../../../include /I../../../../include/SDKUtil /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"temp\x86_64\Debug\\" /Fd"C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin/x86_64/Debug/HelloWorld.pdb" /Gd /TP /wd4005 /wd4996 /errorReport:prompt source\psvm.cpp "source\svm-train.cpp"
+         svm-train.cpp
+         psvm.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin\x86_64\Debug\PSVMTrain.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\..\..\lib\win64\ /LIBPATH:"C:\Program Files (x86)\AMD APP SDK\2.9-1\\lib\x86_64\\" /LIBPATH:\lib\x64 kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin\x86_64\Debug\PSVMTrain.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin/x86_64/Debug/HelloWorld.lib" /MACHINE:X64 /PROFILE /SAFESEH:NO  /machine:x64 /debug temp\x86_64\Debug\psvm.obj
+         "temp\x86_64\Debug\svm-train.obj"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+         PSVMTrain.vcxproj -> C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin\x86_64\Debug\PSVMTrain.exe
+       PostBuildEvent:
+         copy HelloWorld_Kernel.cl "C:\Users\Henry\CodeHub\gpusvm\GPUSVM\bin\x86_64\Debug\HelloWorld_Kernel.cl" /Y
+         	  
+         :VCEnd
+                 1 arquivo(s) copiado(s).
+     1>Done Building Project "C:\Users\Henry\CodeHub\gpusvm\projects\PSVMTrain\PSVMTrain.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.66

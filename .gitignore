@@ -1,0 +1,9 @@
+*.sdf
+*.opensdf
+*/Release/*
+*/Debug/*
+*/bin/*
+*/x64/*
+*.exe
+*.obj
+*.pdb

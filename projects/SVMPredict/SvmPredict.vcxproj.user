@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommandArguments>..\..\projects\datasets\test\a1a.test ..\..\projects\datasets\metadata_svm\a1a.model ..\..\projects\datasets\metadata_svm\a1a.out</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>..\..\projects\datasets\test\mushrooms.test ..\..\projects\datasets\metadata_svm\mushrooms.model ..\..\projects\datasets\metadata_svm\mushrooms.out</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>..\..\projects\datasets\test\a7a.test ..\..\projects\datasets\metadata_psvm\a7a.model ..\..\projects\datasets\metadata_psvm\a7a.out</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
